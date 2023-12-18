@@ -1,8 +1,16 @@
-const Homepage = () => {
-    return(
+import React from 'react';
+
+const Homepage = ({ user }) => {
+
+    //console.log(user)
+
+    // will great guests and users differently
+    return (
         <div>
-            
-            <h2>Welcome to our library!</h2>
+
+
+            <h1>{user.firstname ? `Welcome back ${user.firstname} ${user.lastname}` : 'Welcome valued guest to the Libray Homepage. You can log in on the top right of the page'}</h1>
+
 
         </div>
     )
