@@ -33,34 +33,21 @@ nav a{
   flex-wrap: wrap;
 }
 
-
-
-
-
-
-
-
-
-
-/* Initial state */
 .nav-link {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  color: black; /* Change this color to your preferred text color */
-  background-color: lightgreen; /* Change this color to your preferred background color */
+  color: black; 
+  background-color: lightgreen; 
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover state */
 .nav-link:hover {
-  background-color: pink; /* Change this color to your preferred hover background color */
-  color: black; /* Change this color to your preferred text color on hover */
+  background-color: pink; 
+  color: black; 
 }
 
-/* Active state (when link is clicked) */
 .nav-link.active {
-  background-color: lightcoral; /* Change this color to your preferred active background color */
-  color: black; /* Change this color to your preferred text color when active */
-}
+  background-color: lightcoral; 
+  color: black; 
